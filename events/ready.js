@@ -6,10 +6,10 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            { name: '/help and !help', type: ActivityType.Playing },
-            { name: '/help and !help', type: ActivityType.Playing },
-            { name: '/help and !help', type: ActivityType.Playing },
-            { name: '/help and !help', type: ActivityType.Playing },
+            { name: '/help', type: ActivityType.Playing },
+            { name: '/help', type: ActivityType.Playing },
+            { name: '/help', type: ActivityType.Playing },
+            { name: '/help', type: ActivityType.Playing },
         ];
 
      

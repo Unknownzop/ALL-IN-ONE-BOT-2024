@@ -82,7 +82,17 @@ module.exports = {
 
                 pages.push({
                     title: 'Help Information',
-                    description: 'Click on Excess Command list to see prefix commands.',
+                    description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
+                    commands: [
+                        `**💜 Bot Developer:** Trucker\n`+
+                        `**Bot Version:** 1.1.0\n`+
+                        `**Total Servers:** ${totalServers}\n`+
+                        `**Total Members:** ${totalMembers}\n`+
+                        `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
+                        `**Total Commands:** ${totalCommands}\n`+
+                        `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
+                        `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
+                    ],
                     image: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573017436520489/20241125_171743.png?ex=6745b5bc&is=6744643c&hm=c3b461c9b9d3d8333733e8b5f1556ec2eb51ecee7d207e04e2d0455755487875&",
                     color: "#3498db",
                     thumbnail: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573040270315530/cartoon_fig_fruit_logo_without_text.png-removebg-preview_1.png?ex=6745b5c2&is=67446442&hm=7211909baddb115f69fb626594ba9680572e514d1caac1969b8ffc6ca0de5aa4&",
@@ -229,8 +239,18 @@ module.exports = {
             
                 const totalCommands = totalCommandFiles + totalExcessCommandFiles;
                 pages.push({
-                    title: 'Bot Information',
-                    description: 'Click on Excess Command list to see prefix commands.',
+                    title: 'Help Information',
+                    description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
+                    commands: [
+                        `**💜 Bot Developer:** Trucker\n`+
+                        `**Bot Version:** 1.1.0\n`+
+                        `**Total Servers:** ${totalServers}\n`+
+                        `**Total Members:** ${totalMembers}\n`+
+                        `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
+                        `**Total Commands:** ${totalCommands}\n`+
+                        `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
+                        `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
+                    ],
                     image: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573017436520489/20241125_171743.png?ex=6745b5bc&is=6744643c&hm=c3b461c9b9d3d8333733e8b5f1556ec2eb51ecee7d207e04e2d0455755487875&",
                     color: "#3498db",
                     thumbnail: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573040270315530/cartoon_fig_fruit_logo_without_text.png-removebg-preview_1.png?ex=6745b5c2&is=67446442&hm=7211909baddb115f69fb626594ba9680572e514d1caac1969b8ffc6ca0de5aa4&",

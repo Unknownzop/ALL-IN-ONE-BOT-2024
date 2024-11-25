@@ -6,14 +6,14 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            { name: 'Anime Commands on /help', type: ActivityType.Watching },
-            { name: 'Fun on /hell', type: ActivityType.Playing },
-            { name: 'fig', type: ActivityType.Streaming },
-            { name: '/play', type: ActivityType.Listening },
+            { name: '/help and f!help', type: ActivityType.Playing },
+            { name: '/help and f!help', type: ActivityType.Playing },
+            { name: '/help and f!help', type: ActivityType.Playing },
+            { name: '//help and f!help', type: ActivityType.Playing },
         ];
 
      
-        const statuses = ['online', 'idle', 'dnd'];
+        const statuses = ['online'];
 
      
         let currentActivityIndex = 0;

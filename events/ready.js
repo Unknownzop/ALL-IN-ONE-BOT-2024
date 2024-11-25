@@ -9,7 +9,7 @@ module.exports = {
             { name: '/help and f!help', type: ActivityType.Playing },
             { name: '/help and f!help', type: ActivityType.Playing },
             { name: '/help and f!help', type: ActivityType.Playing },
-            { name: '//help and f!help', type: ActivityType.Playing },
+            { name: '/help and f!help', type: ActivityType.Playing },
         ];
 
      

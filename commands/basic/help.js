@@ -82,11 +82,22 @@ module.exports = {
 
                 pages.push({
                     title: 'Bot Information',
+                    description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
+                    commands: [
+                        `**💜 Bot Developer:** Trucker\n`+
+                        `**Bot Version:** 1.1.0\n`+
+                        `**Total Servers:** ${totalServers}\n`+
+                        `**Total Members:** ${totalMembers}\n`+
+                        `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
+                        `**Total Commands:** ${totalCommands}\n`+
+                        `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
+                        `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
+                    ],
                     image: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573017436520489/20241125_171743.png?ex=6745b5bc&is=6744643c&hm=c3b461c9b9d3d8333733e8b5f1556ec2eb51ecee7d207e04e2d0455755487875&",
                     color: "#3498db",
                     thumbnail: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573040270315530/cartoon_fig_fruit_logo_without_text.png-removebg-preview_1.png?ex=6745b5c2&is=67446442&hm=7211909baddb115f69fb626594ba9680572e514d1caac1969b8ffc6ca0de5aa4&",
                     author: {
-                        name: 'Fig',
+                        name: 'All In One',
                         iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
                         url: "https://discord.gg/xQF9f9yUEM"
                     }
@@ -229,11 +240,22 @@ module.exports = {
                 const totalCommands = totalCommandFiles + totalExcessCommandFiles;
                 pages.push({
                     title: 'Bot Information',
+                    description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
+                    commands: [
+                        `**💜 Bot Developer:** Trucker\n`+
+                        `**Bot Version:** 1.1.0\n`+
+                        `**Total Servers:** ${totalServers}\n`+
+                        `**Total Members:** ${totalMembers}\n`+
+                        `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
+                        `**Total Commands:** ${totalCommands}\n`+
+                        `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
+                        `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
+                    ],
                     image: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573017436520489/20241125_171743.png?ex=6745b5bc&is=6744643c&hm=c3b461c9b9d3d8333733e8b5f1556ec2eb51ecee7d207e04e2d0455755487875&",
                     color: "#3498db",
                     thumbnail: "https://cdn.discordapp.com/attachments/1302487766784938026/1310573040270315530/cartoon_fig_fruit_logo_without_text.png-removebg-preview_1.png?ex=6745b5c2&is=67446442&hm=7211909baddb115f69fb626594ba9680572e514d1caac1969b8ffc6ca0de5aa4&",
                     author: {
-                        name: 'Fig',
+                        name: 'All In One',
                         iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
                         url: "https://discord.gg/xQF9f9yUEM"
                     }
@@ -285,15 +307,15 @@ module.exports = {
                             page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
                             break;
                         case 'hentai':
-                            page.image = "https://cdn.discordapp.com/attachments/1302487766784938026/1310573017436520489/20241125_171743.png?ex=6745b5bc&is=6744643c&hm=c3b461c9b9d3d8333733e8b5f1556ec2eb51ecee7d207e04e2d0455755487875&";
+                            page.image = "https://cdn.discordapp.com/attachments/1246408947708072027/1255160148272353373/Rias.gif?ex=667c1e7b&is=667accfb&hm=cd9d086020fd0e062be92126942d1d683c15a878bb699b000d9db9a34447eb6c&";
                             page.color = "#ff99cc";
-                            page.thumbnail = "https://cdn.discordapp.com/attachments/1302487766784938026/1310573040270315530/cartoon_fig_fruit_logo_without_text.png-removebg-preview_1.png?ex=6745b5c2&is=67446442&hm=7211909baddb115f69fb626594ba9680572e514d1caac1969b8ffc6ca0de5aa4&";
+                            page.thumbnail = "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&";
                             page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=667beaa8&is=667a9928&hm=50dfab0b5a63dab7abdc167899c447041b9717016c71e4ffe377a0d7a989d6b5&";
                             break;
                         case 'lavalink':
-                            page.image = "https://cdn.discordapp.com/attachments/1302487766784938026/1310573017436520489/20241125_171743.png?ex=6745b5bc&is=6744643c&hm=c3b461c9b9d3d8333733e8b5f1556ec2eb51ecee7d207e04e2d0455755487875&";
+                            page.image = "https://cdn.discordapp.com/attachments/1264134884432285766/1270352605154902151/GlaceYT.gif?ex=66b3638f&is=66b2120f&hm=23878b54affd61573b105db7c1c016eb730911dc762b3fbabac5a32cbc884119&";
                             page.color = "#ffcc00";
-                            page.thumbnail = "https://cdn.discordapp.com/attachments/1302487766784938026/1310573040270315530/cartoon_fig_fruit_logo_without_text.png-removebg-preview_1.png?ex=6745b5c2&is=67446442&hm=7211909baddb115f69fb626594ba9680572e514d1caac1969b8ffc6ca0de5aa4&";
+                            page.thumbnail = "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&";
                             page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
                             break;
                         case 'troll':

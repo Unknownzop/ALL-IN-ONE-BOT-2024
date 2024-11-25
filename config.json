@@ -22,9 +22,9 @@
     },
      "lavalink": {
         "lavalink": {
-            "host": "lava.catfein.com",
-            "port": 4000,
-            "password": "catfein",
+            "host": "212.227.65.132",
+            "port": 10296,
+            "password": "charlesnaig-lavalink",
             "secure": false
         }
     }, 

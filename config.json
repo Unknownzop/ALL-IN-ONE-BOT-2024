@@ -1,5 +1,5 @@
 {
-    "token": "",
+    "token": "!",
     "language": "en",
     "prefix": "!",
     "mongodbUri": "mongodb+srv://sub:itspossibler@cluster0.xbflmtx.mongodb.net/?retryWrites=true&w=majority",
